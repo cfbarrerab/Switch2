@@ -1,0 +1,30 @@
+<script>
+    function seleccionarIdioma(valor){
+        var idioma;
+        switch (valor){
+        case 1:
+            idioma = "Español";
+        break;
+        case 2:
+            idioma = "Frances";
+        break;
+        case 3:
+            idioma = "Italiano";
+        break;
+        case 4:
+            idioma = "Alemán";
+        break;
+        default: 
+        idioma = "Inglés";
+        break;
+    
+    }
+    return idioma;
+}
+
+    console.log(seleccionarIdioma(1));//Español
+    console.log(seleccionarIdioma(2));//Frances
+    console.log(seleccionarIdioma(3));//Italinao
+    console.log(seleccionarIdioma(4));//Alemán
+    console.log(seleccionarIdioma(5));//Inglés
+</script>
